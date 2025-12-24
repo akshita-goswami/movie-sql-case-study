@@ -39,4 +39,15 @@ FROM movies
 ORDER BY profit DESC
 LIMIT 10;
 
+-- Count number of movies per genre (genres stored as JSON)
+SELECT genre_name, COUNT(*) AS movie_count
+FROM (
+    SELECT jsonb_array_elements(genres::jsonb)->>'name' AS genre_name
+    FROM movies
+) AS genre_table
+GROUP BY genre_name
+ORDER BY movie_count DESC
+LIMIT 10;
+
+
 
