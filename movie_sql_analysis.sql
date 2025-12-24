@@ -12,7 +12,7 @@ LIMIT 10;
 SELECT
     COUNT(*) AS total_rows,
     COUNT(title) AS title_non_null,
-    COUNT(genre) AS genre_non_null,
+    COUNT(genres) AS genre_non_null,
     COUNT(budget) AS budget_non_null,
     COUNT(revenue) AS revenue_non_null
 FROM movies;
