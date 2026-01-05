@@ -17,3 +17,8 @@ The work includes data exploration, basic data quality checks, and analysis quer
 - SQL querying
 - Analytical thinking
 
+## Key Insights
+- Bigger budgets did not always lead to higher revenue.
+- Some movies with moderate budgets showed strong profitability.
+- Movies with higher popularity generally earned more, though ratings did not always follow the same pattern.
+- A few genres appeared more frequently and tended to perform better in terms of revenue.
