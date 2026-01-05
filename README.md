@@ -1,7 +1,6 @@
 # Movie SQL Case Study
 
 ## Project Overview
-## Project Overview
 This project involves analyzing a movie dataset using SQL to understand patterns related to movie performance, profitability, popularity, and genre distribution. 
 The work includes data exploration, basic data quality checks, and analysis queries written in PostgreSQL.
 
